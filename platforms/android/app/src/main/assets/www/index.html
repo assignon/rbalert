@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+
+        <!--<meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;script-src 'self' https://cdn.jsdelivr.net/npm/vue 'unsafe-eval';">-->
+
+        <meta name="format-detection" content="telephone=no">
+        <meta charset="UTF-8">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link rel="stylesheet" type="text/css" href="css/generalStyle.css">
+        <title>RBA</title>
+
+    </head>
+    <body>
+        <div id="app">
+
+           <div class="appCore">
+
+             <div class="appHeader">
+
+               <headermenu></headermenu>
+               <notifications></notifications>
+
+             </div>
+
+             <div class="appBody">
+
+               <div class="appContent">
+
+                  <component :is="templateName"></component>
+                  <!--<msgscontents></msgscontents>-->
+                  <novelty></novelty>
+                  <info></info>
+
+               </div>
+
+               <div class="popOuts">
+
+                 <lrform></lrform>
+                 <sosalert></sosalert>
+                 <textsos></textsos>
+                 <camerasos></camerasos>
+                 <videosos></videosos>
+
+               </div>
+
+             </div>
+
+             <div class="appFooter">
+
+               <div class="alertNotifications">
+
+                 <msg></msg>
+
+               </div>
+
+               <appmenu></appmenu>
+
+             </div>
+
+           </div>
+
+            <div class="launchScreen">
+
+                <div class="lauchBody">
+
+                  <img src="img/redbuttonLogo.svg" alt="" class="logo">
+
+                </div>
+
+                <div class="lauchFoot">
+
+
+                   <p>Red Button Alert</p>
+                   <!--<img src="img/alert.svg" alt="" class="alertIcon">-->
+
+                </div>
+
+            </div>
+
+        </div>
+
+       <!--*********************************** LIBRARIES ------------------------------------------------------------------>
+
+        <script type="application/javascript" src="libs/MongOGX/collection.mongogx.js"></script>
+        <script type="application/javascript" src="libs/MongOGX/database.mongogx.js"></script>
+        <script type="application/javascript" src="libs/MongOGX/core.mongogx.js"></script>
+        <script type="application/javascript" src="libs/greensock/src/minified/TimelineLite.min.js"></script>
+        <script type="application/javascript" src="libs/greensock/src/minified/TimelineMax.min.js"></script>
+        <script type="application/javascript" src="libs/greensock/src/minified/TweenMax.min.js"></script>
+
+
+        <!--*********************************** FIREBASE ------------------------------------------------------------------>
+        <script src="https://www.gstatic.com/firebasejs/5.0.3/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/5.0.3/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/5.0.3/firebase-database.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/5.0.3/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/5.0.3/firebase-messaging.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/5.0.3/firebase-functions.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/5.0.3/firebase-storage.js"></script>
+
+    <!--*********************************** ***** ------------------------------------------------------------------>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+        <script src="https://cdn.jsdelivr.net/vue.resource/0.7.0/vue-resource.min.js"></script>
+        <script src="libs/vuex.js"></script>
+        <script type="text/javascript" src="cordova.js"></script>
+        <!--<script type="text/javascript" src="js/includes.js"></script>-->
+
+        <script type="text/javascript" src="store/appStore.js"></script>
+
+        <script type="text/javascript" src="js/filters.js"></script>
+        <script type="text/javascript" src="js/components/headerMenu.js"></script>
+        <script type="text/javascript" src="js/components/notifications.js"></script>
+        <script type="text/javascript" src="js/components/alerts.js"></script>
+        <script type="text/javascript" src="js/components/forms.js"></script>
+        <script type="text/javascript" src="js/components/messages.js"></script>
+        <script type="text/javascript" src="js/components/msgsContents.js"></script>
+        <script type="text/javascript" src="js/components/novelty.js"></script>
+        <script type="text/javascript" src="js/components/info.js"></script>
+        <script type="text/javascript" src="js/components/sos.js"></script>
+        <script type="text/javascript" src="js/components/textSos.js"></script>
+        <script type="text/javascript" src="js/components/users.js"></script>
+        <script type="text/javascript" src="js/components/userHistory.js"></script>
+        <script type="text/javascript" src="js/components/appMenu.js"></script>
+        <script type="text/javascript" src="js/components/cameraSos.js"></script>
+        <script type="text/javascript" src="js/components/videoSos.js"></script>
+        <script type="text/javascript" src="js/components/userProfil.js"></script>
+
+        <script type="text/javascript" src="js/animations.js"></script>
+        <script type="text/javascript" src="js/db.js"></script>
+        <script type="text/javascript" src="js/users.js"></script>
+        <script type="text/javascript" src="js/helpers.js"></script>
+        <script type="text/javascript" src="js/fireBase.js"></script>
+        <script type="text/javascript" src="js/noveltiesData.js"></script>
+
+        <script type="text/javascript" src="js/app.js"></script>
+
+
+
+
+    </body>
+</html>

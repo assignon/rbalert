@@ -1,0 +1,113 @@
+.infoPage
+{
+
+   width: 100%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   z-index: 0;
+   overflow: scroll;
+   background-color: #f3f3f3;
+   /*margin-top: -27px;*/
+}
+
+
+.infoGlobe
+{
+
+   width: 100%;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.infohead
+{
+
+   width: 100%;
+   height: 500px;
+   background-image: url(../img/info.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+
+}
+
+
+.infoLogo
+{
+
+   width: 150px;
+   height: 300px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-top: -120px;
+   margin-bottom: -50px;
+
+}
+
+
+.imgglobe
+{
+
+  width: 150px;
+  height: 150px;
+  border: 1px solid #f3f3f3;
+  border-radius: 100%;
+  background-color: #f3f3f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+
+.infoLogo img
+{
+
+   width: 70%;
+   height: 70%;
+
+}
+
+
+.infoLogo h3
+{
+
+   color: #fc0e26;
+   margin-top: -30px;
+
+}
+
+
+.infoPage section
+{
+
+   width: 90%;
+   height: auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   bottom: 30px;
+
+}
+
+
+.infoPage section p
+{
+
+   color: #030303;
+   text-align: left;
+   font-size: 15px;
+   width: 100%;
+   height: auto;
+
+}

@@ -1,0 +1,4 @@
+#Thu Jul 12 06:55:28 CEST 2018
+base.0=G\:\\rbaNV\\rbalert\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+renamed.0=classes.dex
+file.0=G\:\\rbaNV\\rbalert\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0\\classes.dex

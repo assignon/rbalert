@@ -1,0 +1,68 @@
+.messages
+{
+
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -50px;
+  position: fixed;
+  bottom: 120px;
+  right: 20px;
+
+}
+
+
+.msgNotif, .sosAlert
+{
+
+   width: 55px;
+   height: 55px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   -webkit-box-shadow: -4px 1px 6px -2px rgba(0,0,0,0.75);
+   -moz-box-shadow: -4px 1px 6px -2px rgba(0,0,0,0.75);
+   box-shadow: -4px 1px 6px -2px rgba(0,0,0,0.75);
+   border: 1px solid #fc0e26;
+   background-color: #fc0e26;
+   border-radius: 100%;
+
+}
+
+
+.msgNotif img, .msgNotif span
+{
+
+  position: absolute;
+
+}
+
+
+.msgNotif span
+{
+
+  width: 20px;
+  height: 20px;
+  border: 2px solid #fc0e26;
+  border-radius: 100%;
+  background-color: white;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: -12px;
+  left: 25px;
+  color: #fc0e26;
+
+}
+
+
+.messages img
+{
+
+   width: 30px;
+   height: 30px;
+
+}

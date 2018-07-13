@@ -1,0 +1,78 @@
+.notificationCont
+{
+
+  width: 85%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 7;
+  /*margin-top: -120%;*/
+  position: fixed;
+  top: 80px;
+  left: 100%;
+
+}
+
+
+.notificationIcon
+{
+
+  width: 45px;
+  height: 40px;
+  border: 2px solid white;
+  border-radius: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 50px;
+  /*-webkit-box-shadow: -4px 1px 6px -2px rgba(0,0,0,0.75);
+  -moz-box-shadow: -4px 1px 6px -2px rgba(0,0,0,0.75);
+  box-shadow: -4px 1px 6px -2px rgba(0,0,0,0.75);*/
+
+}
+
+
+.notificationIcon img
+{
+
+   width: 25px;
+   height: 25px;
+
+}
+
+
+.notificationContent
+{
+
+   width: 100%;
+   height: auto;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   background-color: #fc0e26;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   border-radius: 3px;
+   -webkit-box-shadow: -4px 1px 6px -2px rgba(0,0,0,0.75);
+   -moz-box-shadow: -4px 1px 6px -2px rgba(0,0,0,0.75);
+   box-shadow: -4px 1px 6px -2px rgba(0,0,0,0.75);
+
+}
+
+
+.notificationContent p
+{
+
+   text-align: left;
+   color: white;
+   font-size: 12px;
+   width: 75%;
+   height: auto;
+   margin-right: 10px;
+
+
+}

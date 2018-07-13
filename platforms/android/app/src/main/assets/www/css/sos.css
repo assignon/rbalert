@@ -1,0 +1,83 @@
+.sosAlertContainer
+{
+
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #101B29;
+  -webkit-box-shadow: -4px 1px 6px -2px rgba(0,0,0,0.75);
+  -moz-box-shadow: -4px 1px 6px -2px rgba(0,0,0,0.75);
+  box-shadow: -4px 1px 6px -2px rgba(0,0,0,0.75);
+  position: absolute;
+  /*top: 30%;
+  left: 10%;*/
+  z-index: 7;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 3px;
+  transform: scale(0,0);
+  margin-top: 50px;
+
+}
+
+
+.sosAlertContainer h3
+{
+
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+
+}
+
+
+.sosAlertContainer button
+{
+
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  font-size: 17px;
+  cursor: pointer;
+  border-radius: 3px;
+  margin-left: 20px;
+  margin-right: 20px
+
+}
+
+
+.sosAlertContainer .yes
+{
+
+    background-color: #fc0e26;
+    webkit-box-shadow: 1px 0px 10px 1px rgba(0,0,0,0.75);
+   -moz-box-shadow: 1px 0px 10px 1px rgba(0,0,0,0.75);
+    box-shadow: 1px 0px 10px 1px rgba(0,0,0,0.75);
+    color: white;
+    border: 1px solid #fc0e26;
+
+}
+
+
+.sosAlertContainer .no
+{
+
+    background-color: white;
+    webkit-box-shadow: 1px 0px 10px 1px rgba(0,0,0,0.75);
+   -moz-box-shadow: 1px 0px 10px 1px rgba(0,0,0,0.75);
+    box-shadow: 1px 0px 10px 1px rgba(0,0,0,0.75);
+    color: #fc0e26;
+    border: 1px solid #fc0e26;
+
+}
+
+.sosAlertContainer .sender
+{
+
+  width: 50px;
+  height: 50px;
+
+}

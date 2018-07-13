@@ -1,0 +1,177 @@
+.novelty
+{
+
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+  overflow: scroll;
+
+}
+
+
+.noNovelty
+{
+
+   width: 100%;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+}
+
+
+.noNovelty h3
+{
+
+   text-align: center;
+   color: #fc0e26;
+   width: 70%;
+
+}
+
+.noveltiesCont
+{
+
+   width: 100%;
+   height: auto;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   margin-top: 20px;
+
+}
+
+.noveltyContent
+{
+
+   position: absolute;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   height: auto;
+   top: 0px;
+
+}
+
+.backToNovelty
+{
+
+  width: 35px;
+  height: 35px;
+  z-index: 2;
+  position: fixed;
+  bottom: 80%;
+  left: 15px;
+
+}
+
+.noveltyImg
+{
+
+   width: 100%;
+   height: 200px;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+
+}
+
+.noveltyContent h2
+{
+
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  width: 90%;
+
+}
+
+.noveltyContent p
+{
+
+   width: 90%;
+   height: auto;
+   text-align: left;
+   font-size: 17px;
+   margin-top: 0px;
+
+}
+
+.noveltyContent p section
+{
+
+   margin-top: 30px;
+   margin-bottom: 30px;
+
+}
+
+.noveltys
+{
+
+   position: absolute;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   align-items: center;
+   width: 100%;
+   height: auto;
+   top: 0px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+
+}
+
+.novels
+{
+
+  width: 47%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  margin-bottom: 10px;
+
+}
+
+.novels .novelsImg
+{
+
+  width: 100%;
+  height: 150px;
+  border-radius: 3px 3px 0px 0px;
+
+}
+
+.novels h5
+{
+
+  width: 90%;
+  height: auto;
+  margin-bottom: 0px;
+  margin-top: 5px;
+  text-align: center;
+  color: #f3f3f3;
+
+}
+
+.novels p
+{
+
+  width: 90%;
+  height: auto;
+  text-align: left;
+  font-size: 13px;
+  color: #f3f3f3;
+
+}

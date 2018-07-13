@@ -1,0 +1,136 @@
+.users
+{
+
+   width: 100%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: flex-start;
+   z-index: 0;
+   overflow: scroll;
+
+}
+
+
+.usersGlobe
+{
+
+   width: 100%;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+}
+
+
+.usersContainer
+{
+
+   width: 100%;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+}
+
+
+.usersEntireContainer
+{
+
+   width: 100%;
+   height: 80px;
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   align-items: center;
+   border-top: 1px solid #f3f3f3;
+   background-color: #ffffff;
+  /* -webkit-box-shadow: 0px 1px 9px 1px rgba(0,0,0,0.39);
+   -moz-box-shadow: 0px 1px 9px 1px rgba(0,0,0,0.39);
+   box-shadow: 0px 1px 9px 1px rgba(0,0,0,0.39);*/
+   margin-bottom: 0px;
+   /*transform: scale(0,0);*/
+
+}
+
+.usersEntireContainer:last-child
+{
+
+   border-bottom: 1px solid white;
+
+}
+
+
+.usericon
+{
+
+   width: 40px;
+   height: 40px;
+   padding: 10px;
+   border: 2px solid white;
+   background-color: #f3f3f3;
+   border-radius: 100%;
+   margin-left: 10px;
+
+}
+
+
+.userInfo
+{
+
+   width: 40%;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: flex-start;
+
+}
+
+
+.userInfo h4
+{
+
+   color: black;
+   position: relative;
+   top: 10px;
+   left: 7px;
+
+}
+
+.userInfo p
+{
+
+   color: black;
+   position: relative;
+   bottom: 20px;
+   left: 7px;
+   font-size: 12px;
+
+}
+
+
+.userAlerts
+{
+
+   width: 33%;
+   height: 90%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: flex-end;
+
+}
+
+
+.userAlerts img
+{
+
+   width: 20px;
+   height: 20px;
+
+}
